@@ -8,4 +8,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    var txv : textview = findViewById(R.id.txv)
+    txv.text = "0"
+
 }
