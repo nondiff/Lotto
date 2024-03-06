@@ -18,5 +18,14 @@ class MainActivity : AppCompatActivity() {
         var txv: TextView = findViewById(R.id.txv)
         txv.text = (1..100).random().toString()
     }
+    fun happy(v: View){
+        var txv: TextView = findViewById(R.id.txv)
+        if (v.id == R.id.btn){
+            txv.text = (1..100).random().toString()
+        }
+        else{
+            txv.text = "0"
+        }
+    }
 
 }

@@ -15,6 +15,14 @@
         android:text="樂透"
         android:textSize="30sp" />
 
+    <Button
+        android:id="@+id/btnZero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="happy"
+        android:text="歸零"
+        android:textSize="30sp" />
+
     <TextView
         android:id="@+id/txv"
         android:layout_width="match_parent"
