@@ -2,6 +2,7 @@ package tw.edu.pu.shan.lotto
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    var txv : textview = findViewById(R.id.txv)
+    var txv : TextView = findViewById(R.id.txv)
     txv.text = "0"
 
 }
